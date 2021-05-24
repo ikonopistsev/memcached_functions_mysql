@@ -1,6 +1,8 @@
 /* Common definitions for all functions */
 #include <libmemcached/memcached.h>
 #include "util.h"
+#include "mybool.h"
+
 #define VERSION_STRING "1.1"
 #define VERSION_STRING_LENGTH 3
 #define MEMC_UDF_MAX_SIZE 256*256

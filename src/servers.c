@@ -912,7 +912,7 @@ int memc_get_servers(memcached_st *clone)
   {
       memcached_server_st *servers;
 
-      servers = memcached_servers_parse("127.0.0.1:22201");
+      servers = memcached_servers_parse("127.0.0.1:11211");
       if (servers != NULL)
       {
           rc= memcached_server_push(master_memc, servers);
